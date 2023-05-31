@@ -1,0 +1,399 @@
+@font-face {
+  font-family: SF Pro Display;
+  src: url("../assets/fonts/SFPRODISPLAYREGULAR.OTF");
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("../assets/fonts/Gilroy-SemiBold.ttf");
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.footer_text {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-size: 24px;
+  color: #000000;
+}
+.footer_descr {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  color: #31393c;
+}
+a {
+  text-decoration: none !important;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  font-size: 18px;
+  color: #2176ff;
+}
+.navbar-toggler:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.accordion_title {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 29px;
+  color: #000000;
+}
+.accordion_descr {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+.rotate_background,
+.rotate_text {
+  margin-bottom: 0;
+}
+.odno {
+  position: absolute;
+  top: -33px;
+  left: -43px;
+  width: 400px;
+  z-index: -100;
+}
+.odnobody {
+  position: relative;
+  color: #2176ff;
+}
+.main_description {
+  font-family: SF Pro Display;
+  font-weight: 900;
+  font-size: 96px;
+  color: #1e1e1e;
+  margin-bottom: 0;
+}
+.rotate_background {
+  width: 52%;
+  background-repeat: no-repeat;
+  background: url(/src/assets/img/5.png);
+  position: relative;
+  display: -webkit-inline-box;
+  background-position: left, top !important;
+  background-repeat: no-repeat;
+}
+.rotate_text {
+  color: #2176ff;
+}
+.blue_text {
+  color: #2176ff;
+}
+.main_description_1 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+.order_button {
+  background-color: #2176ff !important;
+  color: #fff !important;
+  border-radius: 20px !important;
+  font-family: "SF Pro Display" !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+.card_button {
+  background-color: #fff !important;
+  color: #2176ff !important;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.text-caption-descr {
+  font-family: "SF Pro Display" !important;
+  font-weight: 200 !important;
+  color: #31393c !important;
+}
+.Edus_subtitle {
+  color: #000;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+.border-element {
+  position: relative;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #aaa;
+}
+
+.border-element::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  bottom: 5px;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #aaa;
+}
+.statistic_number {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000;
+}
+.statistic_description {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-size: 20px;
+  color: #000;
+}
+.blue_plus {
+  color: #2176ff;
+}
+.accordion-tab {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.v-expansion-panel:not(:first-child)::after {
+  border: 0 !important;
+}
+.v-expansion-panels {
+  border: 0 !important;
+}
+.dashed-divider {
+  width: 100%;
+  height: 1px;
+  background-color: transparent;
+  background-image: linear-gradient(to right, #aaaaaa 60%, transparent 60%);
+  background-size: 11px 2px;
+  background-repeat: repeat-x;
+}
+.v-expansion-panel-text__wrapper {
+  padding: 0px 24px 16px !important;
+}
+.iphone {
+  background-image: url(/src/assets/img/phoneinHand.png) !important;
+  background-position: bottom;
+  border-radius: 10px;
+}
+.v-expansion-panel-title__overlay {
+  background-color: transparent !important;
+}
+
+.lighttext {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #f4f7fb;
+}
+.phoneBlock {
+  min-height: 600px;
+}
+.text-capitalize {
+  text-transform: capitalize;
+  font-family: SF Pro Display;
+}
+.lighttext_subtitle {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fdfdff;
+}
+.intg_description {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #31393c;
+}
+.phoneInHand {
+  background: linear-gradient(180deg, #2176ff 0%, #33a1fd 100%);
+  border-radius: 10px;
+  z-index: 0;
+}
+.accordion {
+  border: 0.1px solid #aaaaaa;
+  border-radius: 10px;
+  border-color: #aaaaaa;
+}
+.v-expansion-panel {
+  border-radius: 10px !important;
+}
+.FAQ {
+  min-height: 700px;
+}
+.main {
+  background: linear-gradient(
+    180deg,
+    #2176ff -78.69%,
+    #a6c9fe 6.49%,
+    #fcfffd 100%
+  );
+  min-height: 750px;
+}
+.number_line {
+  width: 300px;
+  height: 0px;
+  border: 1px dashed #aaaaaa;
+  top: 50px !important;
+  position: relative;
+}
+.list {
+  min-height: 120px;
+}
+.uniquecard {
+  min-height: 600px;
+}
+.cardorder {
+  min-height: 650px;
+}
+.stastistics {
+  min-height: 180px;
+}
+
+.my-card {
+  transition: box-shadow 0.3s;
+}
+.hover-card {
+  transition: box-shadow 0.3s;
+}
+.integr_title {
+  font-family: SF Pro Display;
+  font-weight: 700;
+  font-size: 36px;
+  color: #1e1e1e;
+}
+.form-elevation {
+  transition: 1s;
+}
+
+.form-elevation:hover {
+  box-shadow: 5px 5px 10px 2px rgba(33, 118, 255, 0.25) !important;
+  border-radius: 10px !important;
+}
+.custom-elevation:hover {
+  background: #fdfdff !important;
+  box-shadow: 5px 5px 10px 2px rgba(33, 118, 255, 0.25) !important;
+  border-radius: 10px !important;
+}
+.custom-elevation-variable {
+  transition: 0.5s;
+}
+.custom-elevation-variable:hover {
+  background: linear-gradient(180deg, #2176ff 0%, #33a1fd 100%) !important;
+  box-shadow: 0 0 20px 10px rgba(33, 118, 255, 0.5) !important;
+}
+@media (max-width: 1279px) {
+  .rotate_background {
+    width: 70%;
+    background-repeat: no-repeat;
+    background: url(/src/assets/img/5.png);
+    position: relative;
+    display: -webkit-inline-box;
+    background-position: left, top !important;
+    background-repeat: no-repeat;
+  }
+  .main_description {
+    font-size: 70px;
+  }
+  .number_line {
+    width: 250px;
+  }
+  .odno {
+    top: -30px;
+    left: -36px;
+    width: 300px;
+  }
+  .rotate_background {
+    background-position: -38px -38px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 600px) {
+  .odno {
+    top: -18px !important;
+    left: -24px !important;
+    width: 203px !important;
+  }
+  .main_description {
+    font-size: 50px;
+  }
+  .rotate_background {
+    background-position: bottom;
+  }
+}
+
+.card_unig_title {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+.card_unig_description {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+.take_Card_title {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #1e1e1e;
+}
+.numerate {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: linear-gradient(180deg, #2176ff 0%, #33a1fd 100%);
+}
+.title_get_Card {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1e1e1e;
+}
+
+@media (max-width: 959px) {
+  .odno {
+    top: -27px;
+    left: -35px;
+    width: 297px;
+  }
+  .rotate_background {
+    background: none;
+    width: 100%;
+  }
+  .main_description {
+    font-family: SF Pro Display;
+    font-weight: 900;
+    color: #1e1e1e;
+  }
+}
+@media (max-width: 425px) {
+  .Numerate {
+    display: none;
+  }
+}
+@media (max-width: 350px) {
+  .main_description {
+    font-size: 45px;
+  }
+  .odno {
+    top: -17px !important;
+    left: -22px !important;
+    width: 182px !important;
+  }
+}
